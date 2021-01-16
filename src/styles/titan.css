@@ -1,0 +1,48 @@
+.info-titan{
+    display: flex;
+   
+    flex-direction: column;
+
+}
+.card-titan {
+    margin:1em;
+}
+.title-titan{
+    margin-top: 3em;
+    text-align: center;
+
+}
+.power{
+    display: flex;
+    font-weight: bold;
+    justify-content: start;
+    align-items: center;
+    margin-left: 5px;
+}
+.star{
+    align-items: center;
+    font-size: 1.3em;
+    text-shadow: 1px 0px 1px #000000;
+    color: rgb(255, 204, 35);
+    padding-left: 3px;
+    margin-bottom: 25px;
+    
+}
+
+.power>img{
+    
+    margin-left: 0.6em;
+}
+
+.img-titan{
+    border-radius: 9px;
+}
+
+.content{
+    margin-top: 1em;
+}
+
+.left{
+    font-weight: bold;
+    text-align: left;
+}

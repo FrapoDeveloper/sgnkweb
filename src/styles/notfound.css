@@ -1,0 +1,47 @@
+*:focus {
+        outline: none;
+ }
+
+.container-animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+}
+.stylenone:hover{
+    transform-style: none;
+    text-decoration: none;
+    outline-style: none;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.btn-grad {background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%)}
+.btn-grad {
+    border: 1px solid white;
+    cursor: pointer;
+   margin: 10px;
+   padding: 10px 30px;
+   outline:none;
+   user-select: none;
+   text-align: center;
+   transition: 0.5s;
+   cursor: pointer;
+   font-weight: bold;
+   background-size: 200% auto;
+   color: white;            
+
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }

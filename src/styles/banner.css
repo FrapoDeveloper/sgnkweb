@@ -1,0 +1,36 @@
+.btn-p{
+   background:  #0b243a;
+   border: 1px solid #2f6067;
+}
+.main-banner{
+   text-decoration: none;
+
+   background: #06122c;
+}
+.btn-p:hover{
+    text-decoration: none;
+    background: #2f6067;
+    
+ }
+
+ .btn-s{
+border: 1px solid #2f6067;
+color: white;
+
+ }
+
+ .btn-s:hover{
+   text-decoration: none;
+    background: #2f6067;
+
+ }
+ .question{
+   text-shadow: 0.2px 0.5px 0.2px white;
+     color:#204a56;
+ }
+.container-btn{
+    cursor: pointer;
+    transform-style: none;
+    text-decoration: none;
+    outline-style: none;
+}
