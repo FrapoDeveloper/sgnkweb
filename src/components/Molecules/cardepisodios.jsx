@@ -3,7 +3,7 @@ const Cardpersonaje = ({titulo,capitulo,img,description,link}) => (
 
     <article class="s-shadow-bottom">
         <div class="s-ratio-16-9 img-container s-radius-tl s-radius-tr">
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noopener noreferrer">
                  <img src={img} alt={titulo} link={titulo}s/>
             </a>
         </div>
